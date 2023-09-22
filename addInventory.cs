@@ -39,6 +39,5 @@ public class addInventory : MonoBehaviour
     {
         WoodenStickCanvas.SetActive(true);
     }
-    //the code can be duplicated and modified to fit into whichever item the player is picking up.
-
+    
 }
