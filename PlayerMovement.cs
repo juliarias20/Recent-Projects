@@ -29,12 +29,7 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(Vector3.right * Time.deltaTime * turnSpeed * horizontalInput);
         transform.Translate(Vector3.forward * Time.deltaTime * turnSpeed * verticalInput);
 
-        if(coinCount == 10)
-        {
-            //code for powerup?
-        }
-
-
+   
     }
 
     void OnTriggerEnter(Collider collision)
